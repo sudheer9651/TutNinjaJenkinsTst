@@ -9,19 +9,10 @@
       <class name="com.tutorialsninja.qa.testcases.LoginTest">
         <methods>
           <include name="setup"/>
-          <include name="verifyLoginWithValidCredentials" invocation-numbers="0"/>
           <include name="tearDown"/>
+          <include name="verifyLoginWithValidCredentials" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.tutorialsninja.qa.testcases.LoginTest -->
-      <class name="com.tutorialsninja.qa.testcases.SearchTest">
-        <methods>
-          <include name="verifySearchWithInvalidProduct"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="verifySearchWithoutAnyProduct"/>
-          <include name="verifySearchWithValidProduct"/>
-        </methods>
-      </class> <!-- com.tutorialsninja.qa.testcases.SearchTest -->
     </classes>
   </test> <!-- TutorialsNinja Tests(failed) -->
 </suite> <!-- Failed suite [TutorialsNinja Automation Suite] -->
