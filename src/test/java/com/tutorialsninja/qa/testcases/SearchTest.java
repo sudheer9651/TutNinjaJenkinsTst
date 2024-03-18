@@ -50,7 +50,7 @@ public class SearchTest extends Base {
 		
 		searchPage = homePage.searchForAProduct(dataProp.getProperty("invalidProduct"));
 		Assert.assertEquals(searchPage.retrieveNoProductMessageText(),"abcd","No product message in search results is not displayed");
-		
+		//here we have written "abcd" to intentianally failedd
 	}
 	
 	@Test(priority=3,dependsOnMethods={"verifySearchWithValidProduct","verifySearchWithInvalidProduct"})

@@ -10,7 +10,7 @@
      
   <!--   <class name="com.tutorialsninja.qa.testcases.LoginTest"/>   -->
   
-  <!-- <class name="com.tutorialsninja.qa.testcases.SearchTest"/>  -->
+   <class name="com.tutorialsninja.qa.testcases.SearchTest"/>  
   
     </classes>
   </test> <!-- Test -->
