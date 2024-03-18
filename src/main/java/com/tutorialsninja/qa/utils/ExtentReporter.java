@@ -36,7 +36,8 @@ public class ExtentReporter {
 		
 		extentReport.setSystemInfo("Application URL",configProp.getProperty("url"));
 		extentReport.setSystemInfo("Browser Name",configProp.getProperty("browserName"));
-		extentReport.setSystemInfo("Email",configProp.getProperty("validEmail"));
+		//extentReport.setSystemInfo("Email",configProp.getProperty("validEmail"));
+		extentReport.setSystemInfo("Email","asudheer.info@gmail.com");
 		extentReport.setSystemInfo("Password",configProp.getProperty("validPassword"));
 		extentReport.setSystemInfo("Operating System",System.getProperty("os.name"));
 		extentReport.setSystemInfo("Username",System.getProperty("user.name"));
